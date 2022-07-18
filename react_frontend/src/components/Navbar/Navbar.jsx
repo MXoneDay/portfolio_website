@@ -9,8 +9,8 @@ export const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="app__navbar">
-      <div className="app__navbar-logo">
+    <nav className="app__navbar1">
+      {/* <div className="app__navbar-logo">
         <img src={Images.logo}></img>
       </div>
       <ul className="app__navbar-links">
@@ -37,7 +37,7 @@ export const Navbar = () => {
               </ul>
             </motion.div>
         )}
-      </div>
+      </div> */}
     </nav>
   );
 };
